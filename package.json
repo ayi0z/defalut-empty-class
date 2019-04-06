@@ -1,11 +1,20 @@
 {
   "name": "default-empty-class",
   "version": "0.1.0",
-  "private": true,
+  "description": "为表单元素空值状态设置默认classname",
+  "main": "lib/default-empty-class.umd.min",
+  "author": "ayioz",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ayi0z/default-empty-class.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name default-empty-class --dest lib plugin/index.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
