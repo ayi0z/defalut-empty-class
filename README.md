@@ -5,7 +5,7 @@
 
 ## 安装
 ```
-    npm i default-empty-class
+    npm i 'default-empty-class'
 ```
 ## 使用
 ```
